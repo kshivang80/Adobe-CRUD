@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import ProfileForm from './Components/ProfileForm';
+import AllRoutes from './allRoutes/AllRoutes';
+import Navbar from './Pages/Navbar';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
     <div className="App">
-       <ProfileForm/>
+      <Navbar/>
+       <AllRoutes/>
+       <Footer/>
+
     </div>
   );
 }
